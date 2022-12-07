@@ -1,4 +1,4 @@
-# pandas-challenge-
+# School Performace Trends 
 In this project, I analyzed district-wide standardized test results and aggregated the data to showcase obvious trends in school performance.
 
 First, I merged two csv files of data and created a dataframe for the district including total number of schools and students, total budget and test score averages. 
