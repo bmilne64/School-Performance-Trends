@@ -1,5 +1,4 @@
-# pandas-challenge-analysis
-Draws two correct conclusions from the data for Pyschools
+#School Performance Analysis 
 
 There is a negative correlation between school spending per student and the percentage of students who achieve a 70% or higher in their studies. As school spending per student increases, the percentage of students who score above a 70% in reading, math and overall decreases. 
 
