@@ -1,12 +1,67 @@
-# School Performance Trends 
-In this project, I analyzed district-wide standardized test results and aggregated the data to showcase obvious trends in school performance.
+## School Performance Trends 
 
-First, I merged two csv files of data and created a dataframe for the district including total number of schools and students, total budget and test score averages. 
+Analyzes District Wide Standardized Test Data Using Pandas
 
-Second, I created a dataframe that summarizes key metrics about each school, including School Name, School Type, Total Students, Total School Budget, Per Student Budget, Average Math Score, Average Reading Score, % Passing Math, % Passing Reading, and % Overall Passing. 
+## Objectives:
 
-Next, I sorted and displayed the top five and bottom five performing schools by % overall passing.
+### Step 1 - District Summary
 
-Then, I created a table that lists the average reading score and a table that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+* Perform the necessary calculations and then create a high-level snapshot of the district's key metrics in a DataFrame
 
-Finally, I created three tables that break down school performances based on average spending ranges per student, school size and school type. 
+![](images/district.png)
+
+### Step 2 - School Summary
+
+* Perform the necessary calculations and then create a DataFrame that summarizes key metrics about each school
+
+![](images/school.png)
+
+### Step 3 - Highest-Performing Schools (by % Overall Passing)
+
+* Sort the schools by % Overall Passing in descending order and display the top 5 rows.
+* Save the results in a DataFrame called "top_schools"
+    
+![](images/top.png)
+
+### Step 4 - Lowest-Performing Schools (by % Overall Passing)
+
+* Sort the schools by % Overall Passing in ascending order and display the top 5 rows.
+* Save the results in a DataFrame called "bottom_schools"  
+    
+![](images/bottom.png)
+    
+### Step 5 - Math Scores by Grade
+
+* Perform the necessary calculations to create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school
+    
+![](images/math.png)
+    
+### Step 6 - Reading Scores by Grade
+
+* Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school
+
+![](images/reading.png)
+
+### Step 7 - Scores by School Spending
+
+* Create a table that breaks down school performance based on average spending ranges (per student)
+* Create four bins with reasonable cutoff values to group school spending
+* Categorize spending based on the bins and create a new DataFrame
+
+![](images/spend.png)
+    
+### Step 8 - Scores by School Size
+
+* Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large)
+
+![](images/size.png)
+
+### Step 9 - Scores by School Type
+
+* Create a DataFrame called size_summary that breaks down school performance based on school type (charter or district)
+
+![](images/type.png)
+
+---------------------------------------------------
+
+<b>Contact:</b> bronwynmilne64@gmail.com
