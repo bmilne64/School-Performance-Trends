@@ -52,13 +52,13 @@ Analyzes District Wide Standardized Test Data Using Pandas
     
 ### Step 8 - Scores by School Size
 
-* Create a DataFrame called size_summary that breaks down school performance based on school size (small, medium, or large)
+* Create a DataFrame that breaks down school performance based on school size (small, medium, or large)
 
 ![](images/size.png)
 
 ### Step 9 - Scores by School Type
 
-* Create a DataFrame called size_summary that breaks down school performance based on school type (charter or district)
+* Create a DataFrame that breaks down school performance based on school type (charter or district)
 
 ![](images/type.png)
 
